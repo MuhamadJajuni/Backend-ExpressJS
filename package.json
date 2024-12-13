@@ -18,9 +18,9 @@
     "helmet": "^8.0.0"
   },
   "devDependencies": {
-    "bun-types": "latest",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
+    "bun-types": "latest",
     "prisma": "^6.0.1",
     "typescript": "^5.7.2"
   }
