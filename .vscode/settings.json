@@ -1,0 +1,11 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "driver": "PostgreSQL",
+      "connectString": "postgresql://postgres:tTynvcuqJOcfhxfkUEGDLNcmVDuSZFGm@autorack.proxy.rlwy.net:25903/railway",
+      "name": "be"
+    }
+  ]
+}
