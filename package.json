@@ -3,27 +3,26 @@
   "module": "src/server/index.ts",
   "type": "module",
   "scripts": {
-    "migrate:dev": "prisma migrate dev",
-    "migrate:deploy": "prisma migrate deploy",
-    "migrate:status": "prisma migrate status",
-    "generate": "prisma generate",
+    "migrate:dev": "bunx prisma migrate dev",
+    "migrate:deploy": "bunx prisma migrate deploy",
+    "migrate:status": "bunx prisma migrate status",
+    "generate": "bunx prisma generate",
     "dev": "bun run --watch src/server/index.ts",
     "start": "bun run src/server/index.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest",
     "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.0"
+    "@types/express": "^5.0.0",
+    "prisma": "^6.0.1",
+    "@prisma/client": "^6.0.1"
   },
   "peerDependencies": {
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@prisma/client": "^6.0.1",
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "express-rate-limit": "^7.4.1",
-    "helmet": "^8.0.0",
-    "prisma": "^6.0.1"
+    "helmet": "^8.0.0"
   }
 }
