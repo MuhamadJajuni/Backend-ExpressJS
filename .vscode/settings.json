@@ -4,8 +4,8 @@
       "previewLimit": 50,
       "server": "localhost",
       "driver": "PostgreSQL",
-      "connectString": "postgresql://postgres:tTynvcuqJOcfhxfkUEGDLNcmVDuSZFGm@autorack.proxy.rlwy.net:25903/railway",
-      "name": "be"
+      "connectString": "postgresql://postgres:BhoCBjMOuwhWtWOBlvvzKuZaFHpIKMym@junction.proxy.rlwy.net:33283/railway",
+      "name": "my-db"
     }
   ]
 }
