@@ -3,10 +3,10 @@
   "module": "src/server/index.ts",
   "type": "module",
   "scripts": {
-    "migrate:dev": "bun prisma migrate dev",
-    "migrate:deploy": "bun prisma migrate deploy",
-    "migrate:status": "bun prisma migrate status",
-    "generate": "bun prisma generate",
+    "migrate:dev": "prisma migrate dev",
+    "migrate:deploy": "prisma migrate deploy",
+    "migrate:status": "prisma migrate status",
+    "generate": "prisma generate",
     "dev": "bun run --watch src/server/index.ts",
     "start": "bun run src/server/index.ts"
   },
