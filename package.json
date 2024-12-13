@@ -4,7 +4,11 @@
   "type": "module",
   "scripts": {
     "dev": "bun run --watch src/server/index.ts",
-    "start": "bun src/server/index.ts"
+    "start": "bun src/server/index.ts",
+    "migrate:dev": "bun run prisma migrate dev",
+    "migrate:deploy": "bun run prisma migrate deploy",
+    "migrate:status": "bun run prisma migrate status",
+    "generate": "bun run prisma generate"
   },
   "devDependencies": {
     "@types/bun": "latest",
