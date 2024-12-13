@@ -1,6 +1,6 @@
 {
   "name": "backend-expressjs",
-  "module": "index.ts",
+  "module": "src/server/index.ts",
   "type": "module",
   "scripts": {
     "migrate:dev": "prisma migrate dev",
